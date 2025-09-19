@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8" />
@@ -295,7 +295,7 @@
 </header>
 
 <nav>
-    <a href="#resources">Ресурсы</a>
+    <a href="#resources">Брайнроты</a>
     <a href="#cart-section">Корзина</a>
     <a href="#contacts">Наши контакты</a>
     <a href="#reviews">Отзывы</a>
@@ -304,12 +304,30 @@
 <main>
     <!-- Раздел ресурсов -->
     <section id="resources">
-        <h2>Доступные ресурсы</h2>
+        <h2>Доступные Brainrots</h2>
         <div class="product">
             <h3>✏️Pakrahmatmamat✏️</h3>
             <p>Описание: 1.5m/s.</p>
             <p>Цена: 250 рублей</p>
             <button class="btn btn-buy" onclick="addToCart('✏️Pakrahmatmamat✏️', 250)">Добавить в корзину</button>
+        </div>
+        <div class="product">
+            <h3>✈️Los Bombinitos✈️</h3>
+            <p>Описание: +1 mutations, 1.1m/s .</p>
+            <p>Цена: 250 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('✈️Los Bombinitos✈️', 250)">Добавить в корзину</button>
+        </div>
+         <div class="product">
+            <h3>🦈Tralalita Tralala Gold🦈</h3>
+            <p>Описание: +2mutations, 725k/s .</p>
+            <p>Цена: 250 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('🦈Tralalita Tralala Gold🦈', 250)">Добавить в корзину</button>
+        </div>
+            <div class="product">
+            <h3>🐈‍⬛Gattito Tacoto Diamond🐈‍⬛</h3>
+            <p>Описание: +2mutations, 1m/s.</p>
+            <p>Цена: 250 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('🐈‍⬛Gattito Tacoto Diamond🐈‍⬛', 250)">Добавить в корзину</button>
         </div>
         <div class="product">
             <h3>🎩Los Matteos🎩</h3>
@@ -323,6 +341,40 @@
             <p>Цена: 500 рублей</p>
             <button class="btn btn-buy" onclick="addToCart('🐋Orcalero Orcala🐋', 500)">Добавить в корзину</button>
         </div>
+             <div class="product">
+            <h3>🙉Dul Dul Dul Candy🙉</h3>
+            <p>Описание: 1.5m/s.</p>
+            <p>Цена: 500 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('🙉Dul Dul Dul Candy🙉', 500)">Добавить в корзину</button>
+        </div>
+            </div>
+             <div class="product">
+            <h3>🕊️Piccione Macchina🕊️</h3>
+            <p>Описание: +2mutations, 2.4m/s.</p>
+            <p>Цена: 500 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('🕊️Piccione Macchina🕊️, 500)">Добавить в корзину</button>
+        </div>
+                    </div>
+             <div class="product">
+            <h3>🪐La Vacca Saturno Saturnita🐮</h3>
+            <p>Описание: 300k/s.</p>
+            <p>Цена: 500 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('🪐La Vacca Saturno Saturnita🐮, 500)">Добавить в корзину</button>
+        </div>
+                         </div>
+             <div class="product">
+            <h3>🐈‍⬛Gattito Tacoto🐈‍⬛</h3>
+            <p>Описание: +2mutations, 1.1m/s.</p>
+            <p>Цена: 500 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('🐈‍⬛Gattito Tacoto🐈‍⬛, 500)">Добавить в корзину</button>
+        </div>
+                              </div>
+             <div class="product">
+            <h3>🐭Tipi Topi Toca🐭</h3>
+            <p>Описание: +2mutations, 1.1m/s.</p>
+            <p>Цена: 500 рублей</p>
+            <button class="btn btn-buy" onclick="addToCart('🐭Tipi Topi Toca🐭, 500)">Добавить в корзину</button>
+        </div>
     </section>
 
     <!-- Раздел корзины -->
@@ -334,12 +386,11 @@
         <button class="btn btn-pay" onclick="goToPayment()">Перейти к оплате</button>
     </section>
 
-    <!-- Контакты -->
-    <section id="contacts">
-        <h2>Наши контакты</h2>
-        <p>Discord: </p>
-        <p>FunPay: </p>
-    </section>
+  <section id="contacts">
+    <h2>Наши контакты</h2>
+    <p>Discord: https://discord.gg/Y7FUudNSBs
+    <p>FunPay:  </p>
+</section>
 
     <!-- Отзывы -->
     <section id="reviews" class="reviews">
